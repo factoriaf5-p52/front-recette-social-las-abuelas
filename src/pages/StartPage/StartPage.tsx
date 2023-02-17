@@ -2,12 +2,13 @@ import { Link } from 'react-router-dom'
 import ReactPlayer from 'react-player'
 import {VideoContainer, StyledLink, DivButton, ButtonH2} from './startPage.style'
 import { GlobalStyles } from "../../Global.style"
+import { NavBottom } from '../../components'
 
 
 type Props = {}
 
 const HomePage = (props: Props) => {
-  return (
+  return (<>
     <VideoContainer className= " video">
         <ReactPlayer 
           url='videos/cocinando-11657.mp4'
@@ -25,6 +26,8 @@ const HomePage = (props: Props) => {
         </DivButton>
         </StyledLink>   
     </VideoContainer>
+    
+    </>
   )
 }
 
