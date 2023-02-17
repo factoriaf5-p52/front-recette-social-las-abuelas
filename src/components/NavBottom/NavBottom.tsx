@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { NavIcon } from '../NavIcon/NavIcon'
-import Home from '../../assets/icons/home-red.png'
+import Home from '../../assets/icons/home-gray.png'
 import Stats from '../../assets/icons/statistic-gray.png'
-import Recipes from '../../assets/icons/recipes-white.png'
+import Recipes from '../../assets/icons/recipes-gray.png'
 
 type Props = {}
 
