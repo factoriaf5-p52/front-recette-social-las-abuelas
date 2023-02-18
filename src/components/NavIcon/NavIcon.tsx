@@ -1,5 +1,6 @@
 import React from 'react'
 import Recipes from '../../assets/icons/home-red.png'
+import { IconDiv, IconText } from './NavIcon.style'
 
 type Props = {
     img: string, 
@@ -7,9 +8,9 @@ type Props = {
 }
 export const NavIcon = (props : Props) => {
   return (
-    <div>
+    <IconDiv>
         <img src={props.img} alt="" />
-        <p> { props.text }</p>
-    </div>
+        <IconText> { props.text }</IconText>
+    </IconDiv>
   )
 }
