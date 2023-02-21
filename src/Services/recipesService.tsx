@@ -1,6 +1,6 @@
 const apiBase = 'http://localhost:4000/api/v1/recipes'
 
-type Types = {title:string, description: string}
+
 const recipesService = {
     getAll() {
         return fetch(apiBase) 
